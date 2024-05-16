@@ -1,0 +1,19 @@
+{
+  "name": "names",
+  "version": "1.0.0",
+  "description": "\"Programmin of give and take names\" ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "names",
+    "list",
+    "give"
+  ],
+  "author": "LSCasas",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
