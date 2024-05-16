@@ -1,0 +1,14 @@
+const numero = parseInt(process.argv[2]);
+
+for (let contador = 1; contador <= numero; contador++) {
+    if (contador % 3 == 0 && contador % 5 == 0) {
+      console.log(contador, "FizzBuzz");
+    } if (contador % 3 == 0) {
+      console.log(contador, "Fizz");
+    } else if (contador % 5 == 0) {
+      console.log(contador, "Buzz");
+    } else {
+      console.log(contador);
+    }
+  }
+  

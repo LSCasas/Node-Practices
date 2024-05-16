@@ -1,0 +1,22 @@
+{
+  "name": "second-node-project",
+  "version": "1.0.0",
+  "description": "\"This is my second node project\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "",
+    "dev": "",
+    "charles": "echo 'Holla Charles'"
+  },
+  "keywords": [
+    "node",
+    "learn",
+    "secondProject"
+  ],
+  "author": "LSCasas",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
