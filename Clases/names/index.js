@@ -10,7 +10,7 @@ while (continuar) {
 console.log("El número de nombres ingresados fue:", nombres.length);
 console.log("Nombres ingresados:", nombres);
 
-// Encontrar el nombre repetido y cuántas veces se repite
+
 const contadorNombres = {};
 let nombreRepetido = null;
 let cantidadRepetida = 0;
@@ -23,7 +23,7 @@ nombres.forEach(nombre => {
 });
 console.log("Nombre más repetido:", nombreRepetido, ", veces repetido:", cantidadRepetida);
 
-// Encontrar el nombre más largo y el más corto
+
 let nombreMasLargo = nombres[0];
 let nombreMasCorto = nombres[0];
 nombres.forEach(nombre => {
