@@ -19,7 +19,7 @@ server.get('/koders', (req, res) => {
 server.post('/koders', (req, res) => {
     const { name, generation, gender, age, isActive } = req.body;
 
-    // Verificar si todos los campos requeridos están presentes
+    
     if (!name || !generation || !gender || !age || isActive === undefined) {
         res.status(400);
         res.json({
