@@ -14,3 +14,4 @@ module.exports = {
     sign,
     verify
 };
+
